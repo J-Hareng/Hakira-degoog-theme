@@ -23,45 +23,44 @@
 }
 
 :root {
-  --bg: #f2f0e3;
-  --bg-light: #ebe8d8;
+  --bg: #040e0d;
+  --bg-light: #0a1816;
+  --bg-hover: #152a26;
+  --border: #1d3631;
+  --border-light: #2e2e2e;
 
-  --bg-hover: #e4e1cf;
-  --border: #d6d2be;
-  --border-light: #e0dcc9;
+  --text-primary: #f5e2c5;
+  --text-secondary: #c4b09a;
 
-  --text-primary: #2e2e2e;
-  --text-secondary: #6b6a63;
+  --text-link: #5fc8d4;
+  --text-link-visited: #e89aa8;
 
-  --text-link: #f76f53;
-  --text-link-visited: #c95539;
+  --text-cite: #b5b3a6;
+  --text-snippet: #c4c2b5;
 
-  --text-cite: #524d4a;
-  --text-snippet: #4a4745;
-  --search-bar-bg: #ebe8d8;
-  --search-bar-bg-hover: #ebe8d8;
+  --search-bar-bg: #0a1816;
+  --search-bar-bg-hover: #0f211f;
 
-  --btn-bg: #e4e1cf;
-  --btn-text: #2e2e2e;
+  --btn-bg: #1d3631;
+  --btn-text: #5fc8d4;
 
-  --overlay-bg: rgba(46, 46, 46, 0.4);
-  --white: #f2f0e3;
+  --overlay-bg: rgba(0, 0, 0, 0.6);
+  --white: #1f1f1f;
   --theme-bar-bg: transparent;
+  --theme-bar-text: #96948a;
+  --theme-pagination-active-bg: #3d2820;
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.4);
 
-  --theme-bar-text: #6b6a63;
-  --theme-bar-border: transparent;
-  --theme-pagination-active-bg: #f9ddd4;
-
-  --shadow-sm: 0 2px 6px rgba(46, 46, 46, 0.04);
-  --shadow-md: 0 6px 16px rgba(46, 46, 46, 0.08);
-
-  --accent: #f76f53;
-  --primary: #f76f53;
-  --primary-hover: #e55a3e;
-  --primary-rgb: 247, 111, 83;
-  --danger: #e0594a;
-  --warning: #c9a227;
-  --success: #4a7c59;
+  --primary: #3dd1b0;
+  --primary-hover: #5fc8d4;
+  --primary-rgb: 61, 209, 176;
+  --danger: #ff6048;
+  --warning: #f5cd5b;
+  --success: #7ad9a8;
+  --contrast-bg: #f2f0e3;
+  --contrast-text: #3dd1b0;
+  --subtle-bg: #0a1816;
 
   --font-family: "Bricolage Grotesque", sans-serif;
   --font-logo: "Junicode", serif;
