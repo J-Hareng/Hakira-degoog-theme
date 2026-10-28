@@ -344,7 +344,7 @@ a:hover {
 .search-bar:hover,
 .search-bar:focus-within {
   box-shadow: none;
-  border: none;
+  border: 1px solid var(--border);
 }
 
 .search-bar.ac-open {
