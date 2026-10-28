@@ -1,0 +1,14 @@
+{
+  "name": "official-extensions",
+  "description": "Plugins, themes, engines, transports and favicon providers for degoog search.",
+  "repo-image": "https://avatars.githubusercontent.com/u/280656364",
+  "author": "fccview",
+  "themes": [
+    {
+      "path": "hakira",
+      "name": "Hakira",
+      "description": "small simple theme for search.hakira.de ",
+      "version": "2.1.0"
+    }
+  ],
+}
