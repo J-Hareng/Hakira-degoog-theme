@@ -64,6 +64,7 @@
 
   --font-family: "Bricolage Grotesque", sans-serif;
   --font-logo: "Junicode", serif;
+  --accent: var(--primary)
 }
 
 :root[data-theme="light"] {
@@ -416,9 +417,9 @@ a:hover {
 }
 
 .search-btn {
-  background: var(--contrast-bg);
-  color: var(--contrast-text);
-  border: 1px solid var(--contrast-bg);
+  background: var(--subtle-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
