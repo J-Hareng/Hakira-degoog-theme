@@ -303,6 +303,10 @@ a:hover {
   content: none;
 }
 
+.results-logo {
+  padding-right: 0px !important;
+}
+
 .results-logo .site-logo {
   width: 100px;
   padding-right: 0px !important;
