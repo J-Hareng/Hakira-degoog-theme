@@ -382,6 +382,15 @@ a:hover {
   margin-right: 12px;
 }
 
+.site-logo {
+  display: block;
+  width: clamp(120px, 40vw, 220px);
+  /* responsive size */
+  aspect-ratio: 4 / 1;
+  /* set to your SVG's width/height */
+  background: url("img/HakiraV3.svg") no-repeat center / contain;
+}
+
 .button-row {
   display: flex;
   justify-content: center;
