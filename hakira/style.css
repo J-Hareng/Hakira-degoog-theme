@@ -294,36 +294,23 @@ a:hover {
   text-decoration: none;
 }
 
-.logo span,
-.results-logo span {
+.logo span:not(.site-logo),
+.results-logo span:not(.site-logo) {
   display: none !important;
 }
 
-.logo::after {
-
-  /* font-family: var(--font-logo); */
-  /* font-size: 6rem; */
-  /* font-weight: 400; */
-  /* letter-spacing: -0.02em; */
-  /* color: var(--text-primary); */
-  /* text-shadow: var(--shadow-sm); */
-
-  width: clamp(120px, 40vw, 120px);
-  aspect-ratio: 4 / 1;
-  background: url("img/HakiraV3.svg") no-repeat center / contain;
+.results-logo::after {
+  content: none;
 }
 
-.results-logo::after {
-  /* content: "zen"; */
-  /* font-family: var(--font-logo); */
-  /* font-size: 2.25rem; */
-  /* font-weight: 400; */
-  /* letter-spacing: -0.02em; */
-  /* color: var(--text-primary); */
-  /* text-shadow: var(--shadow-sm); */
-  width: clamp(120px, 40vw, 120px);
-  aspect-ratio: 4 / 1;
-  background: url("img/HakiraV3.svg") no-repeat center / contain;
+.results-logo .site-logo {
+  width: 120px;
+}
+
+@media (max-width: 600px) {
+  .results-logo .site-logo {
+    width: 80px;
+  }
 }
 
 .search-container {
