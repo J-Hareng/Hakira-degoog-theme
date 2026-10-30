@@ -813,7 +813,7 @@ a:hover {
   }
 
   .results-logo {
-    padding: 0px;
+    padding-right: 0px !important;
     align-self: flex-start;
   }
 
