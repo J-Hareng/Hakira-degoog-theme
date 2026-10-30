@@ -300,13 +300,17 @@ a:hover {
 }
 
 .logo::after {
-  content: "zen";
-  font-family: var(--font-logo);
-  font-size: 6rem;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  color: var(--text-primary);
-  text-shadow: var(--shadow-sm);
+
+  /* font-family: var(--font-logo); */
+  /* font-size: 6rem; */
+  /* font-weight: 400; */
+  /* letter-spacing: -0.02em; */
+  /* color: var(--text-primary); */
+  /* text-shadow: var(--shadow-sm); */
+
+  width: clamp(120px, 40vw, 120px);
+  aspect-ratio: 4 / 1;
+  background: url("img/HakiraV3.svg") no-repeat center / contain;
 }
 
 .results-logo::after {
@@ -384,10 +388,8 @@ a:hover {
 
 .site-logo {
   display: block;
-  width: clamp(120px, 40vw, 220px);
-  /* responsive size */
+  width: clamp(120px, 40vw, 620px);
   aspect-ratio: 4 / 1;
-  /* set to your SVG's width/height */
   background: url("img/HakiraV3.svg") no-repeat center / contain;
 }
 
