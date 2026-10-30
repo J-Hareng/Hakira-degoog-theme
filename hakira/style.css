@@ -385,7 +385,7 @@ a:hover {
   display: block;
   width: clamp(120px, 40vw, 620px);
   aspect-ratio: 4 / 1;
-  background: url("img/HakiraV3.svg") no-repeat center / contain;
+  background: url("img/icon_full.svg") no-repeat center / contain;
 }
 
 .button-row {
